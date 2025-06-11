@@ -1,0 +1,141 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: Roboto, sans-serif;
+     border: 1px solid red;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0.75rem clamp(1rem, 5vw, 3rem);
+     /* Better responsive padding */
+     background-color: #1F2937;
+     color: #F9FAF8;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     position: relative;
+     /* For dropdowns/z-index */
+     min-height: 60px;
+     /* Better touch targets */
+ }
+
+ .header-link {
+     display: flex;
+     gap: clamp(1rem, 3vw, 2rem);
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+
+ .header-link a {
+     color: inherit;
+     text-decoration: none;
+     font-weight: 500;
+     padding: 0.5rem 0;
+     position: relative;
+     transition: color 0.2s ease;
+ }
+
+ .hero,
+ footer {
+     background-color: #1F2937;
+
+ }
+
+ .hero {
+     display: flex;
+     justify-content: space-between;
+     align-items: stretch;
+     padding: 2rem clamp(1rem, 5vw, 3rem);
+     gap: 2rem;
+     min-height: auto;
+
+ }
+
+ .hero-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 1rem;
+     flex: 1;
+
+ }
+
+ .hero-image {
+     flex: 1;
+     max-width: 100%;
+     height: auto;
+     object-fit: cover;
+     border-radius: 8px;
+     /* For better image aesthetics */
+ }
+
+ .hero-image img {
+     width: 100%;
+     height: auto;
+     border-radius: 8px;
+     /* For better image aesthetics */
+ }
+
+ /* Make button only as wide as its content */
+ .hero-button {
+     width: auto;
+     padding: 0.75rem 2rem;
+     align-self: flex-start;
+     /* Left-align button */
+     border-radius: 8px;
+     /* For better aesthetics */
+
+ }
+
+
+
+
+ .hero-main-text {
+     font-size: 48px;
+     color: #F9FAF8;
+     font-weight: 900;
+ }
+
+ .hero-secondary-text,
+ .header-link {
+     font-size: 18px;
+     color: #E5E7EB;
+ }
+
+
+ .header-logo-text {
+     font-size: 24px;
+     color: #F9FAF8;
+ }
+
+ .button,
+ .call-to-action {
+     background-color: #3882F6;
+ }
+
+ .information-header-text {
+     font-size: 36px;
+     color: #1F2937;
+     font-weight: 900;
+ }
+
+ .quote-section {
+     background-color: #E5E7EB;
+ }
+
+ .quote-text {
+     font-size: 36px;
+     font-style: italic;
+     color: #1F2937;
+ }
+
+
+
+ .footer-content {
+     display: flex;
+
+ }
